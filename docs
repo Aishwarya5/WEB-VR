@@ -1,0 +1,9 @@
+A-Frame is a web framework for building virtual reality experiences. It was started by Mozilla VR to make WebVR content creation easier, faster, and more accessible.
+
+A-Frame lets you build scenes with just HTML while having unlimited access to JavaScript, three.js, and all existing Web APIs. A-Frame uses an entity-component-system pattern that promotes composition and extensibility. It is free and open source with a welcoming community and a thriving ecosystem of tools and components.
+
+HTML,js could be used 
+
+
+A-Frame at its core is an entity-component-system framework. Entity-component-system (ECS) is a pattern popular in game development and is prominent in game engines like Unity. ECS favors composition over inheritance. Every single object in the scene is an entity. An entity is an empty placeholder object that by itself does nothing. We plug in reusable components to attach appearance, behavior, functionality. 
+And we can mix-and-match different components and configure them in order to define different types of objects.
